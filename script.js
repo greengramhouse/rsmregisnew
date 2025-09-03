@@ -5,8 +5,8 @@
     let stat;
     let sendDataObj
     window.onload = function(e) {
-      // liff.init({ liffId: "2004520989-jWLoz3qw" }, function() {
-      liff.init({ liffId: "2008040785-2AP69Zdw" }, function() {
+      liff.init({ liffId: "2004520989-jWLoz3qw" }, function() {
+      // liff.init({ liffId: "2008040785-2AP69Zdw" }, function() {
         liff.ready.then(() => {
           if (liff.isLoggedIn()) {
             liff.getProfile().then(profile => {
